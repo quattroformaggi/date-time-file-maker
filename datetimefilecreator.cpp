@@ -41,7 +41,7 @@ int main()
     }
     else
     {
-        cout << "Error with the choice input: other characters give this error. Shutting down...";
+        cerr << "Error with the choice input: other characters give this error. Shutting down...";
         _getch();
         return -1;
     }
